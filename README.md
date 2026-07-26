@@ -20,7 +20,7 @@
 | **6주차** | PWM 모터 제어, 배터리 온도 모니터링 (BMS 기초) | 진행 예정 |
 | **7주차** | 포트폴리오 최종 정리 및 트러블슈팅 문서화 | 진행 예정 |
 
-# 폴더 구조
+```text
 Embedded-Firmware-Portfolio/
 ├── Week1-Pointer-Basics/
 ├── Week2-Struct-Advanced/
@@ -28,6 +28,7 @@ Embedded-Firmware-Portfolio/
 ├── Project-2-STM32-UART-Communication/ (4주차)
 ├── Project-3-STM32-Temperature-Logger/ (5주차)
 └── Project-4-STM32-BMS-System/ (6주차)
+```
 
 # 사용 기술 / 도구
 - 언어: C
