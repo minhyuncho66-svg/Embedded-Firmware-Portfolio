@@ -27,7 +27,7 @@ Embedded-Firmware-Portfolio/
 ├── Project-1-STM32-LED-Control/ (3주차)
 ├── Project-2-STM32-UART-Communication/ (4주차)
 ├── Project-3-STM32-Temperature-Logger/ (5주차)
-└── Project-4-STM32-BMS-System/ (6주차)
+└──Project-4-STM32-Motor-PI-Controller/ (6주차)
 ```
 
 # 사용 기술 / 도구
