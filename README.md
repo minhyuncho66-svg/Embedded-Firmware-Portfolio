@@ -33,7 +33,7 @@ Embedded-Firmware-Portfolio/
 # 사용 기술 / 도구
 - 언어: C
 - IDE: STM32CubeIDE
-- 보드: STM32 Nucleo-F401RE
+- 보드: STM32 Nucleo-F411RE
 - 버전관리: Git / GitHub Desktop
 
 # 학습 방식
