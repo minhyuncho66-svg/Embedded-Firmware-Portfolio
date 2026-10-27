@@ -14,7 +14,7 @@ STM32 실전 프로젝트 (자기주도)
 - [Project 3: STM32 Temperature Logger (I2C, BMP280, OLED)](./Project-3-STM32-Temperature-Logger)
 - Project 4: STM32 Motor Control (진행 예정)
 
-
+# 진행 현황
 | 주요 내용 | 진행 상태 |
 | :--- | :---: |
 | STM32CubeIDE 환경구축, GPIO/PWM/버튼 제어 | 완료 |
