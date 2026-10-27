@@ -20,7 +20,6 @@ STM32 실전 프로젝트 (자기주도)
 | STM32CubeIDE 환경구축, GPIO/PWM/버튼 제어 | 완료 |
 | UART 통신, 링 버퍼, 명령어 프로토콜 | 완료 |
 | I2C, BMP280 온도센서, SSD1306 OLED | 완료 |
-| 인터럽트 기반 상태머신 + 오픈루프 모터 구동 | 진행 예정 |
 
 ```text
 Embedded-Firmware-Portfolio/
