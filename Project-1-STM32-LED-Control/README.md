@@ -11,22 +11,22 @@ GPIO, PWM, 버튼 입력을 활용한 LED 제어 프로젝트
 
 ## 구현 과정 (단계별)
 
-### 1단계 (Day 12): GPIO Blink
+### 1단계: GPIO Blink
 HAL_GPIO_WritePin(), HAL_Delay()로 
 LED를 0.5초 간격으로 깜빡이는 기본 동작 구현
 
-### 2단계 (Day 13): PWM 밝기 조절
+### 2단계: PWM 밝기 조절
 TIM2_CH1을 PWM으로 설정(ARR=999), 
 __HAL_TIM_SET_COMPARE()로 밝기를 
 0→999→0으로 서서히 변화시키는 
 "숨쉬기 LED" 효과 구현
 
-### 3단계 (Day 14): 버튼 입력 (최종 코드)
+### 3단계: 버튼 입력 (최종 코드)
 기존 PWM 로직을 버튼 상태에 따라 
 조건부로 실행하도록 확장. 
 버튼(B1)을 누르면 최대밝기(999), 떼면 꺼짐(0)
 
-## 2주차와의 연결 (핵심 발견)
+## 핵심 발견: HAL 내부와 레지스터 확인
 - F12로 HAL_GPIO_WritePin() 내부를 열어서 
   GPIOx->BSRR (구조체 포인터+화살표 연산자) 확인
 - main.h에서 #define B1_Pin GPIO_PIN_13 매크로를 
