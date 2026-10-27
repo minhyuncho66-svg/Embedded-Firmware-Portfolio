@@ -1,48 +1,42 @@
-# 전동화 펌웨어/ECU 제어 프로젝트
+# 전동화 펌웨어/ECU 제어 포트폴리오
 
-자동차 전동화 펌웨어 엔지니어(인버터, 컨버터, BMS, 모터 제어 SW)를
-목표로 진행한 여름방학 집중 자기주도 학습 기록입니다.
+자동차 전동화 펌웨어 엔지니어(인버터, 컨버터, BMS, 모터 제어 SW)를 목표로
+STM32 기반 통신·센서·제어 프로젝트를 설계하고 구현한 기록입니다.
 
 # 프로젝트 목표
-- C언어 포인터/구조체 기초부터 STM32 실전 프로젝트까지
-- 매일 "이론 → 예측 → 코드 실습 → 기록"의 4단계 학습 루프 적용
+- C언어 기초를 STM32 실전 프로젝트에 적용
 - 자동차 임베디드 실무(BMS, 레지스터 제어)와 연결된 학습 설계
 
-# 7주 학습 로드맵
+# 프로젝트 목록
+STM32 실전 프로젝트 (자기주도)
+- [Project 1: STM32 LED Control (GPIO/PWM)](./Project-1-STM32-LED-Control)
+- [Project 2: STM32 UART Communication (인터럽트/링버퍼)](./Project-2-STM32-UART-Communication)
+- [Project 3: STM32 Temperature Logger (I2C, BMP280, OLED)](./Project-3-STM32-Temperature-Logger)
+- Project 4: STM32 Motor Control (진행 예정)
 
-| 주차 | 주요 학습 내용 | 진행 상태 |
-| :--- | :--- | :---: |
-| **1주차** | C언어 포인터, 배열, malloc, 구조체 기초 | 완료 |
-| **2주차** | 중첩 구조체, union/bitfield, volatile, 레지스터 패턴 | 완료 |
-| **3주차** | STM32CubeIDE 환경구축, GPIO/PWM/버튼 제어 | 완료 |
-| **4주차** | UART 통신, 링 버퍼, 명령어 프로토콜 | 완료 |
-| **5주차** | I2C, BMP280 온도센서, SSD1306 OLED | 진행 예정 |
-| **6주차** | PWM 모터 제어, 배터리 온도 모니터링 (BMS 기초) | 진행 예정 |
-| **7주차** | 포트폴리오 최종 정리 및 트러블슈팅 문서화 | 진행 예정 |
+# 진행 현황
+| 주요 내용 | 진행 상태 |
+| :--- | :---: |
+| STM32CubeIDE 환경구축, GPIO/PWM/버튼 제어 | 완료 |
+| UART 통신, 링 버퍼, 명령어 프로토콜 | 완료 |
+| I2C, BMP280 온도센서, SSD1306 OLED | 완료 |
 
 ```text
 Embedded-Firmware-Portfolio/
-├── Week1-Pointer-Basics/
-├── Week2-Struct-Advanced/
-├── Project-1-STM32-LED-Control/ (3주차)
-├── Project-2-STM32-UART-Communication/ (4주차)
-├── Project-3-STM32-Temperature-Logger/ (5주차)
-└── Project-4-STM32-BMS-System/ (6주차)
+├── Project-1-STM32-LED-Control/
+├── Project-2-STM32-UART-Communication/ 
+├── Project-3-STM32-Temperature-Logger/
+└──Project-4-STM32-Motor-Controller/
 ```
 
 # 사용 기술 / 도구
 - 언어: C
 - IDE: STM32CubeIDE
-- 보드: STM32 Nucleo-F401RE
+- 보드: STM32 Nucleo-F411RE
 - 버전관리: Git / GitHub Desktop
 
 # 학습 방식
-매일 아래 4단계를 반복하며 진행했습니다.
-1. **이론 학습**: 유튜브/책/Ai로 개념 파악, 손으로 그림 그리기
+1. **이론 학습**: 유튜브/책/AI로 개념 파악, 손으로 그림 그리기
 2. **예측하기**: 코드 짜기 전 스스로 답을 먼저 추측
-3. **코드 실습**: 직접 설계 + 타이핑 (막히면 AI를 이용한 힌트만 참고)
-4. **기록하기**: 배운 것, 예측이 틀린 이유, 시행착오를 정리
-
-학습 도중 어려운 개념들에 대해서는
-"1차 시도 → 참고 → 안 보고 재작성" 3단계로 진행하여
-이해 없는 복붙을 방지했습니다.
+3. **코드 실습**: 직접 설계 + 타이핑 (막히면 AI를 이용한 참고)
+4. **기록하기**: 배운 것, 예측이 틀린 이유, 시행착오 정리
