@@ -1,4 +1,4 @@
-#16 
+1_UART 송신 
 학습 내용
 - UART 이론(TX/RX, 보레이트, 데이터프레임) 학습
 - CubeMX에서 USART2(115200bps) 설정
