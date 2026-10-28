@@ -1,4 +1,4 @@
-*OLED(SSD1306) 실전 연결
+3_OLED(SSD1306) 실전 연결
 
 ■학습 내용
 - OLED 모듈 실물 핀 구조 확인: GND-VCC-SCL-SDA 순서, 뒷면에 I2C 주소 선택(0x3C/0x3D) 저항 점퍼 확인
