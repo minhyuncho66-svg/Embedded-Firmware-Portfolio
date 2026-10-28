@@ -1,4 +1,4 @@
-Project-3-STM32-Temperature-Logger
+#Project-3-STM32-Temperature-Logger
 
 STM32 Nucleo-F411RE로 I2C 통신, BMP 280 온도 센서 데이터 수집, OLED 실시간 출력, UART 송신을 구현한 
 프로젝트
