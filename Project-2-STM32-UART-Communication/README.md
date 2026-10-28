@@ -5,15 +5,17 @@ STM32 Nucleo-F411RE로 UART 통신, 인터럽트 기반 수신, 링버퍼, 명�
 
 ## 구현 과정 (단계별)
 
-### 1단계: UART 기초 송신 HAL_UART_Transmit()으로 1초마다 "Hello STM32!" 송신
+### 1단계: UART 기초 송신
+HAL_UART_Transmit()으로 1초마다 "Hello STM32!" 송신
 
-### 2단계: 데이터 포맷팅 sprintf()로 가상 BMS 센서 데이터 (온도, 전압)를 포맷팅해서 송신
+### 2단계: 데이터 포맷팅
+sprintf()로 가상 BMS 센서 데이터(온도, 전압)를 포맷팅해서 송신
 
-### 3단계: RX 인터럽트 + 링버퍼 HAL_UART_Receive_IT()와 콜백 함수로 1바이트씩 수신, 링버퍼에 
-저장, Echo 기능 구현
+### 3단계: RX 인터럽트 + 링버퍼
+HAL_UART_Receive_IT()와 콜백 함수로 1바이트씩 수신, 링버퍼에 저장, Echo 기능 구현
 
-### 4단계: 명령어 파싱링버퍼 데이터를 선형버퍼로 조립, strcmp()로 "LED_ON"/"LED_OFF" 
-명령어 인식, 실제 LED 원격 제어 성공
+### 4단계: 명령어 파싱 (최종)
+링버퍼 데이터를 선형버퍼로 조립, strcmp()로 "LED_ON"/"LED_OFF" 명령어 인식, 실제 LED 원격 제어 성
 
 **최종 코드는 main.c에서 확인 가능합니다.**
 
