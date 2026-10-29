@@ -1,7 +1,7 @@
 학습 내용
 - LED의 밝기를 조절할 때 사용되는 PWM 방식 학습
 - 입력전압과 듀티(Duty)를 조정해서 출력전압을 변화시킬 수 있는 원리 이해
-- CubeMX에서 핀 기능을 GPIO_Output → TIM2_CH1으로 변경하고, ARR값을 999로 설정
+- CubeMX에서 핀 기능을 GPIO_Output → TIM2_CH1으로 변경하고 ARR값을 999로 설정
 - __HAL_TIM_SET_COMPARE()로 실시간 밝기 조절 코드 작성
 - for문으로 밝기를 0→999→0으로 변화시켜 숨쉬기 LED 효과를 직접 구현하고 실제 보드에서 확인
 
