@@ -1,10 +1,9 @@
 
 
 
-https://github.com/user-attachments/assets/fd9405bb-b4f8-4b76-b642-9c39b28adfff
-
-
 # Project-1: STM32 LED Control
+
+https://github.com/user-attachments/assets/fd9405bb-b4f8-4b76-b642-9c39b28adfff
 
 ## 개요
 STM32 Nucleo-F411RE 보드로 
