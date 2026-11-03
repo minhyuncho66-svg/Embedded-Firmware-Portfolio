@@ -5,6 +5,7 @@ STM32 Nucleo-F411RE 보드로
 GPIO, PWM, 버튼 입력을 활용한 LED 제어 프로젝트
 
 https://github.com/user-attachments/assets/fd9405bb-b4f8-4b76-b642-9c39b28adfff
+▲ 동작 영상: 내장 버튼(B1)을 누를 때마다 LED(LD2)가 켜지고 꺼지는 동작
 
 ## 하드웨어
 - STM32 Nucleo-F411RE
