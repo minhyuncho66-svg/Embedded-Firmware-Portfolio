@@ -3,6 +3,10 @@
 ## 개요
 STM32 Nucleo-F411RE와 TB6612FNG 모터 드라이버로 DC 모터(GA12-N20)의 방향/속도 제어와 엔코더 RPM 측정을 구현한 프로젝트
 
+https://github.com/user-attachments/assets/127600d0-7e26-4928-a653-ade3ed2fd58c
+
+
+
 ## 하드웨어
 - STM32 Nucleo-F411RE
 - TB6612FNG 모터 드라이버
