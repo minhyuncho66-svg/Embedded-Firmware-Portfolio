@@ -3,6 +3,12 @@
 ## 개요
 STM32 Nucleo-F411RE로 UART 통신, 인터럽트 기반 수신, 링버퍼, 명령어 파싱을 구현한 프로젝트
 
+https://github.com/user-attachments/assets/c6e226b5-2d6b-4fbd-b1da-b9a8e54e90f7
+
+https://github.com/user-attachments/assets/a63372d7-b4cb-4081-b89e-6c4a2785282f
+
+▲ 동작 영상: PC 터미널에서 LED_ON / LED_OFF 명령을 입력해 보드 LED를 원격 제어하는 동작
+
 ## 구현 과정 (단계별)
 
 ### 1단계: UART 기초 송신
