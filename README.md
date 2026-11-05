@@ -12,7 +12,7 @@ STM32 실전 프로젝트 (자기주도)
 - [Project 1: STM32 LED Control (GPIO/PWM)](./Project-1-STM32-LED-Control)
 - [Project 2: STM32 UART Communication (인터럽트/링버퍼)](./Project-2-STM32-UART-Communication)
 - [Project 3: STM32 Temperature Logger (I2C, BMP280, OLED)](./Project-3-STM32-Temperature-Logger)
-- Project 4: STM32 Motor Control (진행 예정)
+- Project 4: STM32 Motor Control (진행중)
 
 # 진행 현황
 | 주요 내용 | 진행 상태 |
